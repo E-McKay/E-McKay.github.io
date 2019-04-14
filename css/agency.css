@@ -711,6 +711,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 
 .Softtable{
+  border-collapse: collapse;
+
   text-align: center;
 
 }
@@ -718,14 +720,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 50%;
     margin: auto;
 
 }
 
 td, th {
   text-align: left;
-  padding: 8px;
+  padding: 8px 39px;
+
+
 }
 
 
