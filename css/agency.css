@@ -25,8 +25,13 @@ a:hover {
   color: #74A6AE !important;
 }
 
+h2{
+  color:  #384D52;
+  font-weight: 700;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -81,8 +86,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 255, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 255, 0.5) !important;
 }
 
 ::selection {
@@ -99,7 +104,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #74A6AE;
 }
 
 #mainNav .navbar-toggler {
@@ -231,6 +236,7 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -240,7 +246,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(116, 166, 274, 0.9);
+  background: rgba(116, 166, 174, 0.8);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -289,6 +295,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio * {
   z-index: 2;
+
 }
 
 
@@ -296,6 +303,7 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+
   }
 }
 
@@ -307,6 +315,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal {
   padding-right: 0px !important;
+
 }
 
 .portfolio-modal .modal-dialog {
@@ -342,6 +351,8 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content img {
   margin-bottom: 10px;
+      border-radius: 4vh;
+
 }
 
 .portfolio-modal .modal-content button {
@@ -738,7 +749,7 @@ td, th {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(116, 166, 274, 0.9);
+  background: rgba(116, 166, 174, 0.8);
 }
 
 #photography .portfolio-item .portfolio-link .portfolio-hover:hover {
